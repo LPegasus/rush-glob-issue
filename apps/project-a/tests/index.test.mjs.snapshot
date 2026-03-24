@@ -1,0 +1,9 @@
+exports[`glob v7 and v8 differences 1`] = `
+[]
+`;
+
+exports[`glob v7 and v8 differences 2`] = `
+[
+  "./lib/index.js"
+]
+`;

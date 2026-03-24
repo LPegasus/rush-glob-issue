@@ -2,7 +2,14 @@
   "name": "project-a",
   "version": "0.1.0",
   "main": "./lib/index.js",
+  "scripts": {
+    "test": "node --test tests/**/*.mjs"
+  },
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "glob-v7": "npm:glob@7",
+    "glob-v8": "npm:glob@8"
+  }
 }
